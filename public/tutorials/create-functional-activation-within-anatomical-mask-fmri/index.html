@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Lauryn Burleigh" />
+    <meta name="description" content="fMRI, neuroscience, and cognitive research">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <title>Produce Functional Activation within Anatomical Mask- fMRI</title>
+    <meta name="generator" content="Hugo 0.57.2" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/about-me/">ABOUT ME</a></li>
+        
+        <li><a href="/research-blog/">RESEARCH/BLOG</a></li>
+        
+        <li><a href="/science-and-yoga/">SCIENCE AND YOGA</a></li>
+        
+        <li><a href="/tutorials/">TUTORIALS</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="/tutorials/create-functional-activation-within-anatomical-mask-fmri/">Produce Functional Activation within Anatomical Mask- fMRI</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          November 23, 2018
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+
+<p>This tutorial will demonstrate how to create a mask of the functional activation within a region of interest. I used fsl and Ubuntu for this tutorial.</p>
+<p>For each step (especially the first time creating a mask) it is suggested to open and quality check within fslview.</p>
+<ul>
+<li>Open Group level activation for condition desired in fslview
+<ul>
+<li>thresh_zstat#.nii.gz</li>
+<li>Open on top of bg_image.nii.gz</li>
+</ul></li>
+<li>Add atlas in fslview
+<ul>
+<li>Tools –&gt; Toolbars –&gt; Atlas Tools</li>
+</ul></li>
+<li>Add structures desired from atlas
+<ul>
+<li>Click Structures… (under Atlas Tools box at bottom)</li>
+<li>Choose Atlas
+<ul>
+<li>Cerebellar Atlas in MNI152 space after normalization with FNIRT</li>
+<li>Choose Structures desired</li>
+<li>Press “+” to add to Overlay Settings</li>
+<li>Press Ok to close window when done choosing structures</li>
+<li>The structures chosen will appear on the image and in the Overlay Settings box. These are the anatomical ROIs and the Intensity is displayed as a probability. For this tutorial, we want only the area in which the probability is above 50% and want the structure to be binary.</li>
+<li>Increase Min to 50 if you would like to view the structure as it will look once thresholded</li>
+</ul></li>
+</ul></li>
+<li>Save the region as a mask
+<ul>
+<li>Be sure the correct structure is highlighted in Overlay Settings</li>
+<li>File –&gt; Save As… –&gt; ReName_Structure_When_Saving
+<ul>
+<li>Choose a name for the structure that will be descriptive enough</li>
+<li>Ex. For Right Amygdala, use mask-Ramy.nii.gz</li>
+</ul></li>
+<li>Check the file type in your saved location. You want this to be nii.gz
+<ul>
+<li>If the file is .img or .hdr, change the file type</li>
+<li>In the Terminal:</li>
+<li>fslchfiletype <filetype> <filename> [filename2]</li>
+<li>Ex. fslchfiletype NIFTI_GZ mask-Ramy.img</li>
+</ul></li>
+</ul></li>
+<li>Treshold the newly created mask
+<ul>
+<li>In the Terminal:
+<ul>
+<li>fslmaths <maskname> <arguments> [filename2]</li>
+<li>Ex. fslmaths mask-Ramy.nii.gz -thr 50 -bin mask-Ramy-b</li>
+<li>-thr : threshold<br />
+</li>
+<li>-bin : binary</li>
+</ul></li>
+</ul></li>
+<li>If you would like to combine two structures (ie. Create mask for Right and Left amygdala and combine into one mask)
+<ul>
+<li>In the Terminal:</li>
+<li>Fslmaths <filename> -add <filename> [filename2]</li>
+<li>Ex. Fslmaths mask-Lamy-b.nii.gz -add mask-Ramy-b.nii.gz mask-BIamy</li>
+</ul></li>
+<li>Multiply the mask by the activation
+<ul>
+<li>This will allow the mask to take on the intensity of the activation<br />
+fslmaths <activationfilename> -mul <maskfilename> [filename2]</li>
+<li>Ex. Fslmaths thresh_zstat1.nii.gz -mul mask-Biamy.nii.gz mask-fia-biamy
+<ul>
+<li>fia: Functional In Anatomical</li>
+</ul></li>
+<li>If you would also like to make this mask binary:
+<ul>
+<li>fslmaths <activationfilename> -mul <maskfilename> -bin [filename2]</li>
+<li>Ex. Fslmaths thresh_zstat1.nii.gz -mul mask-Biamy.nii.gz -bin mask-fia-biamy-bin</li>
+</ul></li>
+</ul></li>
+<li>Run fsl-featquery.py to extract the information of this newly created mask from each individual participant</li>
+<li>This will output a csv that can be read and analyzed in R</li>
+</ul>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        <div class="disqus">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+
+    (function() {
+      
+      
+      if (window.location.hostname == "localhost")
+        return;
+
+      var disqus_shortname = '';
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+        </div>
+      </div>
+      
+    </div>
+
+    
+    <footer>
+  <div id="footer">
+    <div class="container">
+      <p class="text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io/">Hugo</a> and
+      <a href="http://www.github.com/nurlansu/hugo-sustain/">sustain</a> with ♥</p>
+    </div>
+  </div>
+</footer>
+<div class="footer"></div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/docs.min.js"></script>
+<script src="/js/main.js"></script>
+
+<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+
+    
+  </body>
+</html>

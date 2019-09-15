@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Between The Lobes</title>
+    <link>/tutorials/</link>
+    <description>Recent content in Tutorials on Between The Lobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 23 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Produce Functional Activation within Anatomical Mask- fMRI</title>
+      <link>/tutorials/create-functional-activation-within-anatomical-mask-fmri/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/create-functional-activation-within-anatomical-mask-fmri/</guid>
+      <description>This tutorial will demonstrate how to create a mask of the functional activation within a region of interest. I used fsl and Ubuntu for this tutorial.
+For each step (especially the first time creating a mask) it is suggested to open and quality check within fslview.
+Open Group level activation for condition desired in fslviewthresh_zstat#.nii.gzOpen on top of bg_image.nii.gzAdd atlas in fslviewTools –&amp;gt; Toolbars –&amp;gt; Atlas ToolsAdd structures desired from atlasClick Structures… (under Atlas Tools box at bottom)Choose AtlasCerebellar Atlas in MNI152 space after normalization with FNIRTChoose Structures desiredPress “+” to add to Overlay SettingsPress Ok to close window when done choosing structuresThe structures chosen will appear on the image and in the Overlay Settings box.</description>
+    </item>
+    
+  </channel>
+</rss>

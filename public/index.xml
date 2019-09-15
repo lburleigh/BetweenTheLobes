@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Between The Lobes</title>
+    <link>/</link>
+    <description>Recent content on Between The Lobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>/about-me/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about-me/</guid>
+      <description>My name is Lauryn Burleigh. I am the creator of the Between The Lobes site. I have a Border-Collie/Lab mix named Roxy and an American Pitbull Terrier named Bronson, who are both pictured above. I also have two rabbits, Cal and Moo.
+I am a graduate student in Dr. Steven Greening’s Cognitive Neuroscience of Affect and Psychopathology Lab (CNAPs Lab) at Louisiana State University in Baton Rouge, LA. I am interested in emotions and how they impact cognitive processes.</description>
+    </item>
+    
+    <item>
+      <title>Emotion Awareness</title>
+      <link>/science-and-yoga/emotion-awareness/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/science-and-yoga/emotion-awareness/</guid>
+      <description>Pratyahara, one of yoga’s 8 limbs (guidelines to a meaningful and purposeful life), is withdrawal. In this limb, the goal is to draw the senses and awareness inward, and away from the external world. This practice focuses on awareness of oneself and maintaining inner awareness. Having an awareness of one’s thoughts and emotions increases their emotion regulation abilities (Gross, 1998).
+Emotion regulation is the process of actively influencing the emotions we have.</description>
+    </item>
+    
+    <item>
+      <title>Meditation and Anxiety</title>
+      <link>/science-and-yoga/meditation-and-anxiety/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/science-and-yoga/meditation-and-anxiety/</guid>
+      <description>Major depression and anxiety disorders are among the most common lifetime diagnoses. In 2005, 33.3% of Americans had a diagnosis of major depression and 30.3% had an anxiety disorder (Pilkington et al., 2005). These numbers are also rising, and do not include individuals who suffer from these disorders but do not receive help or a diagnosis, an estimated 50% of individuals (Tonks, 2003).
+Kozasa et al., 2008 studied the effects of Siddha Samadhi Yoga on anxiety.</description>
+    </item>
+    
+    <item>
+      <title>Yoga and Brain Waves</title>
+      <link>/science-and-yoga/yoga-and-brain-waves/</link>
+      <pubDate>Sun, 09 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/science-and-yoga/yoga-and-brain-waves/</guid>
+      <description>An Electroencephalogram (EEG) is a cap with electrodes that is placed on the head that record brain waves. While this data does not indicate where in the brain a process is occurring, it indicates when a process is occurring. These time sensitive waves allow scientists to further understand cognitive processes.
+Multiple EEG studies were used to investigate the effects of yoga on brain waves. Desai et al. (cited below) completed a review of these studies, which together help explain the decrease of anxiety and the increase of focus experienced after yoga.</description>
+    </item>
+    
+    <item>
+      <title>Pranayama and the Nervous System</title>
+      <link>/science-and-yoga/pranayama-and-the-nervous-system/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/science-and-yoga/pranayama-and-the-nervous-system/</guid>
+      <description>Pranayama is a conscious breathing movement in which inhales and exhales are slowed and controlled. Pranayama accompanies asanas, or poses, in Vinyasa yoga. Pranayama usually occurs in 3 stages: inhale, retention (holding the breath), and exhale. In a vinyasa yoga session, each movement is purposefully accompanied with one or more of these stages.
+Pranayama and slow breathing exercises have been found to decrease heart rate (Pal &amp;amp; Velkumary (2004), Bhargava, Gogate, &amp;amp; Mascarenhas (1988)).</description>
+    </item>
+    
+    <item>
+      <title>Produce Functional Activation within Anatomical Mask- fMRI</title>
+      <link>/tutorials/create-functional-activation-within-anatomical-mask-fmri/</link>
+      <pubDate>Fri, 23 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/create-functional-activation-within-anatomical-mask-fmri/</guid>
+      <description>This tutorial will demonstrate how to create a mask of the functional activation within a region of interest. I used fsl and Ubuntu for this tutorial.
+For each step (especially the first time creating a mask) it is suggested to open and quality check within fslview.
+Open Group level activation for condition desired in fslviewthresh_zstat#.nii.gzOpen on top of bg_image.nii.gzAdd atlas in fslviewTools –&amp;gt; Toolbars –&amp;gt; Atlas ToolsAdd structures desired from atlasClick Structures… (under Atlas Tools box at bottom)Choose AtlasCerebellar Atlas in MNI152 space after normalization with FNIRTChoose Structures desiredPress “+” to add to Overlay SettingsPress Ok to close window when done choosing structuresThe structures chosen will appear on the image and in the Overlay Settings box.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Sun, 02 Oct 2016 22:55:05 -0400</pubDate>
+      
+      <guid>/projects/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+---
+title: Produce Functional Activation within Anatomical Mask- fMRI
+author: L Burleigh
+date: '2018-11-23'
+slug: create-functional-activation-within-anatomical-mask-fmri
+categories: []
+tags: []
+description: ''
+---
+
+
+
+<p>This tutorial will demonstrate how to create a mask of the functional activation within a region of interest. I used fsl and Ubuntu for this tutorial.</p>
+<p>For each step (especially the first time creating a mask) it is suggested to open and quality check within fslview.</p>
+<ul>
+<li>Open Group level activation for condition desired in fslview
+<ul>
+<li>thresh_zstat#.nii.gz</li>
+<li>Open on top of bg_image.nii.gz</li>
+</ul></li>
+<li>Add atlas in fslview
+<ul>
+<li>Tools –&gt; Toolbars –&gt; Atlas Tools</li>
+</ul></li>
+<li>Add structures desired from atlas
+<ul>
+<li>Click Structures… (under Atlas Tools box at bottom)</li>
+<li>Choose Atlas
+<ul>
+<li>Cerebellar Atlas in MNI152 space after normalization with FNIRT</li>
+<li>Choose Structures desired</li>
+<li>Press “+” to add to Overlay Settings</li>
+<li>Press Ok to close window when done choosing structures</li>
+<li>The structures chosen will appear on the image and in the Overlay Settings box. These are the anatomical ROIs and the Intensity is displayed as a probability. For this tutorial, we want only the area in which the probability is above 50% and want the structure to be binary.</li>
+<li>Increase Min to 50 if you would like to view the structure as it will look once thresholded</li>
+</ul></li>
+</ul></li>
+<li>Save the region as a mask
+<ul>
+<li>Be sure the correct structure is highlighted in Overlay Settings</li>
+<li>File –&gt; Save As… –&gt; ReName_Structure_When_Saving
+<ul>
+<li>Choose a name for the structure that will be descriptive enough</li>
+<li>Ex. For Right Amygdala, use mask-Ramy.nii.gz</li>
+</ul></li>
+<li>Check the file type in your saved location. You want this to be nii.gz
+<ul>
+<li>If the file is .img or .hdr, change the file type</li>
+<li>In the Terminal:</li>
+<li>fslchfiletype <filetype> <filename> [filename2]</li>
+<li>Ex. fslchfiletype NIFTI_GZ mask-Ramy.img</li>
+</ul></li>
+</ul></li>
+<li>Treshold the newly created mask
+<ul>
+<li>In the Terminal:
+<ul>
+<li>fslmaths <maskname> <arguments> [filename2]</li>
+<li>Ex. fslmaths mask-Ramy.nii.gz -thr 50 -bin mask-Ramy-b</li>
+<li>-thr : threshold<br />
+</li>
+<li>-bin : binary</li>
+</ul></li>
+</ul></li>
+<li>If you would like to combine two structures (ie. Create mask for Right and Left amygdala and combine into one mask)
+<ul>
+<li>In the Terminal:</li>
+<li>Fslmaths <filename> -add <filename> [filename2]</li>
+<li>Ex. Fslmaths mask-Lamy-b.nii.gz -add mask-Ramy-b.nii.gz mask-BIamy</li>
+</ul></li>
+<li>Multiply the mask by the activation
+<ul>
+<li>This will allow the mask to take on the intensity of the activation<br />
+fslmaths <activationfilename> -mul <maskfilename> [filename2]</li>
+<li>Ex. Fslmaths thresh_zstat1.nii.gz -mul mask-Biamy.nii.gz mask-fia-biamy
+<ul>
+<li>fia: Functional In Anatomical</li>
+</ul></li>
+<li>If you would also like to make this mask binary:
+<ul>
+<li>fslmaths <activationfilename> -mul <maskfilename> -bin [filename2]</li>
+<li>Ex. Fslmaths thresh_zstat1.nii.gz -mul mask-Biamy.nii.gz -bin mask-fia-biamy-bin</li>
+</ul></li>
+</ul></li>
+<li>Run fsl-featquery.py to extract the information of this newly created mask from each individual participant</li>
+<li>This will output a csv that can be read and analyzed in R</li>
+</ul>

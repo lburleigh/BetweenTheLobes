@@ -1,0 +1,19 @@
+---
+title: Pranayama and the Nervous System
+author: L Burleigh
+date: '2018-11-23'
+slug: pranayama-and-the-nervous-system
+categories: []
+tags: []
+description: ''
+---
+
+```{r us, out.width='40%', fig.show='hold', echo = FALSE}
+knitr::include_graphics('/img/1.4.jpg')
+```
+
+Pranayama is a conscious breathing movement in which inhales and exhales are slowed and controlled. Pranayama accompanies asanas, or poses, in Vinyasa yoga. Pranayama usually occurs in 3 stages: inhale, retention (holding the breath), and exhale. In a vinyasa yoga session, each movement is purposefully accompanied with one or more of these stages.
+
+Pranayama and slow breathing exercises have been found to decrease heart rate ([Pal & Velkumary (2004)](https://search.proquest.com/openview/9b98ccfa3b77e8dc6667b20e1ca0f96c/1?pq-origsite=gscholar&cbl=37533),  [Bhargava, Gogate, & Mascarenhas (1988)](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C19&q=Autonomic+responses+to+breath+holding+and+its+variations+following+pranayama.&btnG=)). It has also been shown to decrease blood pressure ([Bhargava, Gogate, & Mascarenhas (1988)](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C19&q=Autonomic+responses+to+breath+holding+and+its+variations+following+pranayama.&btnG=)).
+
+It is believed that this breathing decreases sympathetic activity by increasing blood oxygenation. This was found during a study investigating pranayama during hypoxia ([Bernardi et al. (2001)](https://journals.lww.com/jhypertension/Abstract/2001/05000/Breathing_patterns_and_cardiovascular_autonomic.16.aspx)). This increase in oxygenation improves autonomic functioning ([Telles, Desiraju (1991)](http://www.libraryofyoga.com/handle/123456789/45)).

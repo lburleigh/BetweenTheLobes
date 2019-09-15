@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-mes on Between The Lobes</title>
+    <link>/about-me/</link>
+    <description>Recent content in About-mes on Between The Lobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/about-me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about-me</title>
+      <link>/about-me/about-me/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about-me/about-me/</guid>
+      <description>My name is Lauryn Burleigh. I am the creator of the Between The Lobes site. I have a Border-Collie/Lab mix named Roxy and an American Pitbull Terrier named Bronson, who are both pictured above. I also have two rabbits, Cal and Moo.
+I am a graduate student in Dr. Steven Greening’s Cognitive Neuroscience of Affect and Psychopathology Lab (CNAPs Lab) at Louisiana State University in Baton Rouge, LA. I am interested in emotions and how they impact cognitive processes.</description>
+    </item>
+    
+  </channel>
+</rss>
