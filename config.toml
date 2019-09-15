@@ -1,0 +1,55 @@
+baseurl = "https://example.com/"
+languageCode = "en-US"
+title = "Between The Lobes"
+# Enable comments by entering your Disqus shortname
+#disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "full-logov3.png"
+  page = "Between The Lobes"
+  author = "Lauryn Burleigh"
+  description = "fMRI, neuroscience, and cognitive research"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "lburleigh"
+  Email         = "lburleigh92@gmail.com"
+  Twitter       = "L_Burleigh"
+  #LinkedIn      = "username"
+  #Stackoverflow = "username"
+  #Medium        = "username"
+  #Telegram      = "username"
+  
+[params.site]
+  cnapslab = "https://sites01.lsu.edu/faculty/sgreeninglab/"
+
+## Main Menu
+[[menu.main]]
+  name = "about me"
+  weight = 100
+  identifier = "about-me"
+  url = "/about-me/"
+[[menu.main]]
+  name = "research/blog"
+  identifier = "research-blog"
+  weight = 200
+  url = "/research-blog/"
+[[menu.main]]
+  name = "science and yoga"
+  identifier = "science-and-yoga"
+  weight = 300
+  url = "/science-and-yoga/"
+[[menu.main]]
+  name = "tutorials"
+  identifier = "tutorials"
+  weight = 400
+  url = "/tutorials/"
