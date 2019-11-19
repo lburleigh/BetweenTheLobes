@@ -9,14 +9,8 @@ description: ''
 ---
 
 ```{r us, out.width='40%', fig.show='hold', echo = FALSE}
-knitr::include_graphics('/img/5.1.jpg')
+knitr::include_graphics('/img/6.1.jpg')
 ```
-
-
-Pratyahara, one of yoga’s 8 limbs (guidelines to a meaningful and purposeful life), is withdrawal. In this limb, the goal is to draw the senses and awareness inward, and away from the external world. This practice focuses on awareness of oneself and maintaining inner awareness. Having an awareness of one’s thoughts and emotions increases their emotion regulation abilities ([Gross, 1998](https://journals.sagepub.com/doi/abs/10.1037/1089-2680.2.3.271)).
-
-
-
 
 
 Sleep is essential for the well-being and overall health of humans, both in the short and long-term ([Fox, 1999](https://search.proquest.com/docview/219801640?pq-origsite=gscholar)). It impacts cognitive functioning in many areas including short term memory, working memory, and increased communication between regions in the brain ([Chee, 2008](https://journals.lww.com/co-neurology/Abstract/2008/08000/Functional_neuroimaging_insights_into_how_sleep.6.aspx)). Sleep deprivation has also been linked to increased cortisol, the stress hormone, and increased stress related pathways. Weight gain, insulin production, and diabetes can also be impacted by a lack of sleep ([Hirotsu, 2015](https://www.sciencedirect.com/science/article/pii/S1984006315000607)). 
