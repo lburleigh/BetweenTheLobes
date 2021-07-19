@@ -30,7 +30,7 @@ theme = "hugo-sustain"
   #Telegram      = "username"
   
 [params.site]
-  cnapslab = "https://sites01.lsu.edu/faculty/sgreeninglab/"
+  relearnlab = "https://faculty.lsu.edu/chriscox/index.php"
 
 ## Main Menu
 [[menu.main]]
