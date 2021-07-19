@@ -13,7 +13,7 @@ knitr::include_graphics(c('/img/me-rox.jpg', '/img/bronson.jpg', '/img/Tina.jpg'
 ```
 
 
-My name is Lauryn Burleigh. I am the creator of the Between The Lobes site. I have a Border-Collie/Lab mix named Roxy and an American Pitbull Terrier named Bronson, and an American Staffordshire Terrier named Tina, who are all pictured above, respectively. I also have two rabbits, Cal and Moo, as well as a bearded dragon named Severus. 
+My name is Lauryn Burleigh. I am the creator of the Between The Lobes site. I have a Border-Collie/Lab mix named Roxy and an American Pitbull Terrier named Bronson, who are both pictured above. I also have two rabbits, Cal and Moo. 
 
 I am a graduate student in Dr. Steven Greening’s Cognitive Neuroscience of Affect and Psychopathology Lab (CNAPs Lab) at Louisiana State University in Baton Rouge, LA. I am interested in emotions and how they impact cognitive processes. My main research at the moment investigates the neural mechanisms of fear during imagination and perception. I also have a strong interest in meditation, computational neuroscience, and functional connectivity.
 
