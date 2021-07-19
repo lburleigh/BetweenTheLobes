@@ -1,7 +1,7 @@
 ---
 title: About Me
 author: L Burleigh
-date: '2020-12-01'
+date: '2019-09-14'
 slug: About Me
 categories: []
 tags: []
@@ -9,7 +9,7 @@ description: ''
 ---
 
 ```{r us, out.width='40%', fig.show='hold', echo = FALSE}
-knitr::include_graphics(c('/img/me-rox.jpg', '/img/bronson.jpg', '/img/Tina.jpg'))
+knitr::include_graphics(c('/img/me-rox.jpg', '/img/bronson.jpg', '/img/tina/jpg'))
 ```
 
 
