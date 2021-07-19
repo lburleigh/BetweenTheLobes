@@ -1,0 +1,26 @@
+---
+title: Yoga's Effects on Sleep
+author: L Burleigh
+date: '2019-09-29'
+slug: yoga-sleep
+categories: []
+tags: []
+description: ''
+---
+
+```{r us, out.width='40%', fig.show='hold', echo = FALSE}
+knitr::include_graphics('/img/6.1.jpg')
+```
+
+
+Sleep is essential for the well-being and overall health of humans, both in the short and long-term ([Fox, 1999](https://search.proquest.com/docview/219801640?pq-origsite=gscholar)). It impacts cognitive functioning in many areas including short term memory, working memory, and increased communication between regions in the brain ([Chee, 2008](https://journals.lww.com/co-neurology/Abstract/2008/08000/Functional_neuroimaging_insights_into_how_sleep.6.aspx)). Sleep deprivation has also been linked to increased cortisol, the stress hormone, and increased stress related pathways. Weight gain, insulin production, and diabetes can also be impacted by a lack of sleep ([Hirotsu, 2015](https://www.sciencedirect.com/science/article/pii/S1984006315000607)). 
+
+Not only does sleep impact mental processes but many physiological aspects adjust from wakefulness to sleep, such as decreased cortical activity in the brain, decreased core temperature, decreased muscle activity, and an increased skin temperature ([Fox, 1999](https://search.proquest.com/docview/219801640?pq-origsite=gscholar)).
+
+Yoga’s effects on sleep has been studied in multiple populations. Namely, a study gathered 20 participants who have had chronic insomnia for at least 6 months (some having had chronic insomnia for over 43 years!). This study measured many aspects of sleep before and after having practiced yoga for 8 weeks. In the case of this study the effectiveness of a simple set of yoga poses that could be practiced in a group or individually was used to evaluate its effectiveness.  After practicing these techniques, participants reported improved sleep efficiency, total sleep time, total time awake, the time it took to fall asleep, and wake time after sleep onset ([Khalsa, 2004](https://link.springer.com/article/10.1007/s10484-004-0387-0)).
+
+Up to 90% of cancer survivors report severely impaired sleep quality after treatment. A study of over 400 cancer survivors (75% breast cancer) with moderate or greater sleep quality found that participants who completed just 2 gentle yoga classes a week for 4 weeks had overall improved sleep quality as compared to current best practices for treating insomnia. A decreased need for sleep medication as compared to patients who did not practice yoga was also seen in participants of the study ([Mustian, 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3757292/)). 
+
+Studies have also investigated yoga’s effects on sleep in 90 geriatric participants (60-95 years old, in a residential home for the aged). These participants, who spend more time in bed relative to the time they spend asleep, showed a decrease in the time taken to fall asleep, increased total number of hours slept, and an increased feeling of being rested in the morning ([Manjunath, 2005](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C19&q=Influence+of+Yoga+%26+Ayurveda+on+self-rated+sleep+in+a+geriatric+population&btnG=)). Another study recruited 15 pregnant women in their second or third trimesters, all of which reported fewer awakenings, less time awake during the night, and less sleep disturbance after practicing yoga ([Beddoe, 2010](https://journals.sagepub.com/doi/abs/10.1177/1099800409356320?casa_token=vAt9n1Fjfw8AAAAA:JxcPBp8gPTjmDOJpQjLwCG8hMddAob0etlIbLMlSsfjhITIJAIUXmS7rjJaa_9MiQ2Sz3z0cGloJ)). 
+
+These studies show that yoga can improve sleep in many types of people! As we know that sleep deprivation negatively impacts functioning during wakefulness, improved sleep can benefit time when awake. The studies discussed used easy yoga practices as participants were beginners, showing that even simple sessions can improve sleep. 
