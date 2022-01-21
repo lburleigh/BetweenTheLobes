@@ -5,9 +5,9 @@ date: '2021-07-19'
 slug: About Me
 ---
 
-<img src="/2021-07-19-about-me_files/rox-bronson.jpg" alt="final image" width="200"/>
-<img src="/2021-07-19-about-me_files/me-sev.jpg" alt="final image" width="300"/>
-<img src="/2021-07-19-about-me_files/tina.jpg" alt="final image" width="200"/>
+<img src="/2021-07-19-about-me_files/roxy-bronson.jpg" alt="roxy-bronson" width="200"/>
+<img src="/2021-07-19-about-me_files/me-sev.jpg" alt="me-sev" width="300"/>
+<img src="/2021-07-19-about-me_files/tina.jpg" alt="tina" width="200"/>
 
 
 My name is Lauryn Burleigh. I am the creator of the Between The Lobes site. I'm a big animal person. I have a Border-Collie/Lab mix named Roxy and an American Pitbull Terrier named Bronson, an American Staffordshire Terrier named Tina, and a bearded dragon named Severus. I also have two rabbits, Cal and Moo. 
