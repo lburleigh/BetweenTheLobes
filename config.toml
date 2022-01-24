@@ -39,10 +39,10 @@ theme = "hugo-sustain"
   identifier = "about-me"
   url = "/about-me/"
 [[menu.main]]
-  name = "research/blog"
-  identifier = "research-blog"
+  name = "personal research"
+  identifier = "personal-research"
   weight = 200
-  url = "/research-blog/"
+  url = "/personal-research/"
 [[menu.main]]
   name = "science and yoga"
   identifier = "science-and-yoga"
