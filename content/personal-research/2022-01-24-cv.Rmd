@@ -1,0 +1,26 @@
+---
+title: CV
+author: L Burleigh
+date: '2022-01-24'
+slug: cv
+---
+
+Personal Links:
+
+[Google Scholar](https://scholar.google.com/citations?user=5pQrpQIAAAAJ&hl=en)
+
+[Research Gate](https://www.researchgate.net/profile/Lauryn-Burleigh-3)
+
+[Linked In](https://www.linkedin.com/in/lburleigh/)
+
+[OSF](osf.io/m3jwd)
+
+[ORCiD](https://orcid.org/
+0000-0002-6148-3769)
+
+<img src="/img/personal-research/cv01.jpg" alt="cv1" width="100%"/>
+<img src="/img/personal-research/cv02.jpg" alt="cv2" width="100%"/>
+<img src="/img/personal-research/cv03.jpg" alt="cv3" width="100%"/>
+<img src="/img/personal-research/cv04.jpg" alt="cv4" width="100%"/>
+<img src="/img/personal-research/cv05.jpg" alt="cv5" width="100%"/>
+<img src="/img/personal-research/cv06.jpg" alt="cv6" width="100%"/>
