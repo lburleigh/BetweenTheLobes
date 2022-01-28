@@ -11,7 +11,7 @@ theme = "hugo-sustain"
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "full-logov3.png"
+  avatar = "stitch.jpg"
   page = "Between The Lobes"
   author = "Lauryn Burleigh"
   description = "fMRI, neuroscience, and cognitive research"
@@ -31,6 +31,7 @@ theme = "hugo-sustain"
   
 [params.site]
   relearnlab = "https://faculty.lsu.edu/chriscox/index.php"
+  etsy="etsy.com/shop/lacedscience"
 
 ## Main Menu
 [[menu.main]]
