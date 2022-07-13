@@ -1,0 +1,39 @@
+---
+title: "Slides"
+author: "L Burleigh"
+date: '2022-07-13'
+slug: slides
+---
+
+<h2>
+May 2022
+</h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS6xpqEyELf0bQ2QTHZFdQi9DmdeBUe2-4VTQMxLEZ5zCqkuUhlQoB6SGR_FFkQ2NU-QZxzHHVkSriS/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<br />
+<br />
+
+
+<h2>
+February 2021
+</h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRlXQvi22xyrSGeigfS_BpgY4ZdTwfh95JvneFS0Cbm08r6qndiwHM_gt-AuiV4puvmvyAutYsGJPO_/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<br />
+<br />
+
+<h2>
+February 2020
+</h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQMVwlncBf07Q3KEMI_vofsVgmpUa_PPkQcsTu8tEfpi6fYJxgrWCkVrJm__Za9Ar5tRUfVPj-Oe1cj/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+<br />
+<br />
+
+<h2>
+March 2018
+</h2>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRjPqIT_mVBW26tU_rDxJD7L-9XetMZtovd_VJnyJu26XeSN0hEscm03k4M1H56og/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1280" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
