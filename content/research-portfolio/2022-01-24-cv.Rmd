@@ -8,5 +8,5 @@ slug: cv
 
  [CV](/research-portfolio/CV2.pdf)
  
- [Resume](/research-portfolio/LB_resume.pdf)
+ [Resume](/research-portfolio/LB_Resume.pdf)
 
