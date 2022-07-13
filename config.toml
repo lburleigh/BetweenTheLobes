@@ -40,10 +40,10 @@ theme = "hugo-sustain"
   identifier = "about-me"
   url = "/about-me/"
 [[menu.main]]
-  name = "personal research"
-  identifier = "personal-research"
+  name = "research portfolio"
+  identifier = "research portfolio"
   weight = 200
-  url = "/personal-research/"
+  url = "/research-portfolio/"
 [[menu.main]]
   name = "science and yoga"
   identifier = "science-and-yoga"
