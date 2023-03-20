@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research-portfolios on Between The Lobes</title>
+    <link>https://betweenthelobes.com/research-portfolio/</link>
+    <description>Recent content in Research-portfolios on Between The Lobes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 13 Jul 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://betweenthelobes.com/research-portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Posters</title>
+      <link>https://betweenthelobes.com/research-portfolio/posters/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://betweenthelobes.com/research-portfolio/posters/</guid>
+      <description>Society for Neuroscience 2019
+Society for Affective Science 2018
+Armadillo 2017</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://betweenthelobes.com/research-portfolio/slides/</link>
+      <pubDate>Wed, 13 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://betweenthelobes.com/research-portfolio/slides/</guid>
+      <description>May 2022
+February 2021
+February 2020
+March 2018</description>
+    </item>
+    
+    <item>
+      <title>CV &#43; Resume</title>
+      <link>https://betweenthelobes.com/research-portfolio/cv/</link>
+      <pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://betweenthelobes.com/research-portfolio/cv/</guid>
+      <description>CV
+Resume</description>
+    </item>
+    
+  </channel>
+</rss>
