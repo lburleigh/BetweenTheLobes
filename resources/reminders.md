@@ -1,12 +1,12 @@
-Main page file to edit: C:/Users/larn_/Documents/GitHub/BetweenTheLobes/themes/hugo-sustain/layouts/index.html
+Main page file to edit: BetweenTheLobes/themes/hugo-sustain/layouts/index.html
 
 Add post:
 Create new .Rmd and put in correct folder of content directory
-C:/Users/larn_/Documents/GitHub/BetweenTheLobes/content/---/post.Rmd
+BetweenTheLobes/content/---/post.Rmd
 
 Add images:
 Put .jpg in image folder
-C:/Users/larn_/Documents/GitHub/BetweenTheLobes/img/PAGE-IF-WANTED/image.jpg
+BetweenTheLobes/img/PAGE-IF-WANTED/image.jpg
 Use code in .Rmd
 #<img src="/img/PAGE-IF-WANTED/image.jpg" alt="name" width="100%"/>
 
