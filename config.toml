@@ -4,7 +4,7 @@ title = "Between The Lobes"
 # Enable comments by entering your Disqus shortname
 #disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-7YT5T0J557"
 theme = "hugo-sustain"
 
 [permalinks]
@@ -14,7 +14,7 @@ theme = "hugo-sustain"
   avatar = "stitch.jpg"
   page = "Between The Lobes"
   author = "Lauryn Burleigh"
-  description = "fMRI, neuroscience, and cognitive research"
+  description = "data, research, and crafts"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
