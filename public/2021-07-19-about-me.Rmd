@@ -5,19 +5,6 @@ date: '2021-07-19'
 slug: About Me
 ---
 
-<img src="/2021-07-19-about-me_files/roxy-bronson.jpg" alt="roxy-bronson" width="200"/>
-<img src="/2021-07-19-about-me_files/me-sev.jpg" alt="me-sev" width="300"/>
-<img src="/2021-07-19-about-me_files/tina.jpg" alt="tina" width="200"/>
-
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
 My name is Lauryn Burleigh. I prefer to go by L or Burleigh and use any pronoun. I am the creator of the Between The Lobes site. I'm a big animal person. I have a Border-Collie/Lab mix named Roxy and an American Pitbull Terrier named Bronson, an American Staffordshire Terrier named Tina, a bearded dragon named Severus, and a ball python named Brighid. I also have two rabbits, Cal and Moo. 
 
 I began my graduate career in Dr. Steven Greening’s Cognitive Neuroscience of Affect and Psychopathology Lab (CNAPs Lab) at Louisiana State University (LSU) in Baton Rouge, LA in August 2016 to further my understanding and research of the human brain using neuroimaging techniques. Upon Dr. Greening's move back home to Canada in August 2020, I joined Dr. Chris Cox's ReLearn Lab, also at LSU, to continue my neuroscience research and further my computational and modeling skills, having began my machine learning adventures on fMRI data with Dr. Cox's collaborations while in Dr. Greening's lab. 
