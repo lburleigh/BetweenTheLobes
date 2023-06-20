@@ -16,7 +16,7 @@ I began my graduate career in Dr. Steven Greening’s Cognitive Neuroscience of 
 
 My graduate research focused on emotions and how they impact cognitive processes, primarily investigating the neural mechanisms of fear during imagination and perception. I also have a strong interest in meditation, computational neuroscience, and statistical analyses including machine learning algorithms. I have a passion for data, research, and making them, as well as science, approachable and accessible.
 
-The software I use includes, but is not limited to: Python, bash, fsl, R, Matlab, and Overleaf (LaTex).
+The software I use includes, but is not limited to: Python, bash, R, Matlab, and LaTeX.
 
 Since 2018, I have continuously taught undergraduate and graduate statistics courses at LSU using SPSS and R, and am currently building an A/B testing in R course for DataCamp. Beyond the null hypothesis statistic tests in these courses, I have experience and a strong interest in Bayesian statistics, machine and transfer learning, and multi-variate analyses.
 
